@@ -1,5 +1,5 @@
 // Assignment Code
-var generateBtn. = document.querySelector("#generate");
+var generateBtn = document.querySelector("#generate");
 generateBtn.addEventListener("click", writePassword);
 
 var upperCase = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"];
@@ -38,6 +38,12 @@ if (lowerCaseConfirm === false && upperCaseConfirm === false && numericConfirm =
   }
   return options
 
+}
+
+function randomElement(array) {
+  var randomIndex = Math.floor(Math.random()*array.length);
+  var randomElement = array[randomIndex]
+  return randomElement
 }
 
 // Write password to the #password input
