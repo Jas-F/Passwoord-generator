@@ -28,6 +28,16 @@ if (lowerCaseConfirm === false && upperCaseConfirm === false && numericConfirm =
   alert ("Must Select One")
   return
   }
+
+  var options = {
+    length: userInput,
+    lowerCaseConfirm: lowerCaseConfirm,
+    upperCaseConfirm:   upperCaseConfirm,
+    numericConfirm: numericConfirm,
+    specialCharactersConfirm: specialCharactersConfirm
+  }
+  return options
+
 }
 
 // Write password to the #password input
