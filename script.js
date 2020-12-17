@@ -2,6 +2,8 @@
 var generateBtn = document.querySelector("#generate");
 generateBtn.addEventListener("click", writePassword);
 
+function generatePassword () {
+
 var upperCase = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"];
 var lowerCase = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "q", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"];
 var numericSet = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"];
@@ -44,6 +46,8 @@ function randomElement(array) {
   var randomIndex = Math.floor(Math.random()*array.length);
   var randomElement = array[randomIndex]
   return randomElement
+}
+
 }
 
 // Write password to the #password input
