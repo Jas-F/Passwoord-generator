@@ -40,7 +40,7 @@ if (isNaN(userInput) === true) {
 ## Proper Use of Variables
 
 ```
- var lowerCaseConfirm = confirm ("Would You Like Lower Case Letters?");
+var lowerCaseConfirm = confirm ("Would You Like Lower Case Letters?");
 var upperCaseConfirm = confirm ("Would You Like Upper Case Letters?");
 var numericConfirm = confirm ("Would You Like Numeric Characters?");
 var specialCharactersConfirm = confirm ("Would You Like Special Characters?");
@@ -67,12 +67,12 @@ See also the list of [contributors](https://github.com/your/project/contributors
 
 ## Prerequisites
 
-Git hub
-Git lab
-Git bash
-Visual studio
-Google chrome
-Bootstrap
+Git hub,
+Git lab,
+Git bash,
+Visual studio,
+Google chrome,
+Bootstrap,
 JavaScript
 ## Authors
 
