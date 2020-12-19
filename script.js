@@ -7,8 +7,6 @@ var lowerCase = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "q", "l", "m"
 var numericSet = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"];
 var specialCharacterSet = ["!", "@", "#", "$", "%", "^", "&", "*", "(", ")", "_", "-", "+", "="];
 
-function generatePassword() {
-
 questions()
 function questions () {
 var userInput = parseInt( prompt ("Desired Password Length Between 8 - 128."));
@@ -42,10 +40,9 @@ var questions = {
 }
 
 return questions;
-
 }
 
-var userInput = userInput
+function generatePassword() {
 
 for(var i=0; i<userInput; i++)  {
   var randomIndex = Math.floor(Math.random()*Array.length);

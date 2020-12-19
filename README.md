@@ -1,4 +1,4 @@
-# Passwoord-generator
+# Password-generator
 
  create an application that an employee with access to sensitive data can use to generate a random password based on criteria they’ve selected. This app will feature dynamically updated HTML and CSS powered by JavaScript. Possesses a clean and polished user interface that is responsive, ensuring that it adapts to multiple screen sizes.
 <br>
@@ -70,6 +70,7 @@ Git bash
 Visual studio
 Google chrome
 Bootstrap
+JavaScript
 ## Authors
 
 **Jasmine Franklin** 
