@@ -27,7 +27,7 @@ var numericConfirm = confirm ("Would You Like Numeric Characters?");
 var specialCharactersConfirm = confirm ("Would You Like Special Characters?");
 
 if (lowerCaseConfirm === false && upperCaseConfirm === false && numericConfirm === false && specialCharactersConfirm === false) {
-  alert ("Must Select One")
+  alert ("Must Select One");
   return
 }
 
@@ -40,13 +40,13 @@ var questions = {
 }
 
 return questions;
+
 }
 
 function generatePassword() {
-
-for(var i=0; i<userInput; i++)  {
+for(var i=0; i < userInput; i++)  {
   var randomIndex = Math.floor(Math.random()*Array.length);
-  password += Array[random]
+  password += Array[randomIndex];
 }
 
 }

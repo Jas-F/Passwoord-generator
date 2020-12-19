@@ -1,10 +1,10 @@
 # Password-generator
 
- create an application that an employee with access to sensitive data can use to generate a random password based on criteria they’ve selected. This app will feature dynamically updated HTML and CSS powered by JavaScript. Possesses a clean and polished user interface that is responsive, ensuring that it adapts to multiple screen sizes.
+ Create an application that an employee with access to sensitive data can use to generate a random password based on criteria they’ve selected. This app will feature dynamically updated HTML and CSS powered by JavaScript. Possesses a clean and polished user interface that is responsive, ensuring that it adapts to multiple screen sizes.
 <br>
 
 ===========
-![Image](website.png)
+![Image](website3.png)
 
 <br>
 
@@ -37,10 +37,13 @@ if (isNaN(userInput) === true) {
 ```
 <br>
 
-## for loop
+## Proper Use of Variables
 
 ```
-  <img src="professional.jpg" class="img-fluid" alt="professional"/>
+ var lowerCaseConfirm = confirm ("Would You Like Lower Case Letters?");
+var upperCaseConfirm = confirm ("Would You Like Upper Case Letters?");
+var numericConfirm = confirm ("Would You Like Numeric Characters?");
+var specialCharactersConfirm = confirm ("Would You Like Special Characters?");
 ```
 
 <br>
