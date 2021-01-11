@@ -8,6 +8,9 @@
 
 <br>
 
+==========
+![Image](gen.png)
+
 ## Add Listener to Generate Bar
 
 ```
