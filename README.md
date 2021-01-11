@@ -1,4 +1,4 @@
-# Password-generator
+# Password Generator
 
  Create an application that an employee with access to sensitive data can use to generate a random password based on criteria they’ve selected. This app will feature dynamically updated HTML and CSS powered by JavaScript. Possesses a clean and polished user interface that is responsive, ensuring that it adapts to multiple screen sizes.
 <br>
@@ -79,7 +79,7 @@ Bootstrap,
 JavaScript
 ## Authors
 
-**Jasmine Franklin** 
+**Jasmine Franklin C: 301-332-2313 E: jasminer.franklin@gmail** 
 
 - [Link to Portfolio Site](https://jas-f.github.io/responsive-portfolio/)
 - [Link to Github](https://github.com/)
